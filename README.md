@@ -12,20 +12,20 @@ de production rizicole dans le Tamil Nadu (Inde du Sud).
 
 Le projet suit la posture scientifique demandée par l'énoncé :
 
-> \*"Force a model to fail, understand why it fails, and repair it."\*
+> \"Force a model to fail, understand why it fails, and repair it."\
 
 \---
 
 ## Structure du dépôt
 
 ```
-mini\_project\_when\_ml\_fails/
+mini_project_when_ml_fails/
 │
 ├── data2.csv                              # Dataset Paddy (UCI 1186) — à placer ici
 │
-├── Reference\_model.ipynb               # Modèle de référence (baseline)
-├── Failure\_distribution\_shift.ipynb      # Mode d'échec principal
-├── Failure\_class\_imbalance.ipynb         # Mode d'échec secondaire
+├── Reference_model.ipynb               # Modèle de référence (baseline)
+├── Failure_distribution_shift.ipynb      # Mode d'échec principal
+├── Failure_class_imbalance.ipynb         # Mode d'échec secondaire
 │
 ├── requirements.txt                      # Dépendances Python
 ├── README.md                             # Ce fichier
@@ -114,7 +114,7 @@ Fix 1 réduit cette variance de **8.9%** en supprimant l'artefact d'encodage d'A
 ### Pour exécuter ce notebook
 
 ```bash
-jupyter notebook Failure\_distribution\_shift.ipynb
+jupyter notebook Failure_distribution_shift.ipynb
 ```
 
 \---
@@ -125,7 +125,7 @@ jupyter notebook Failure\_distribution\_shift.ipynb
 
 ### Question de recherche
 
-> Lorsqu'un Random Forest est entraîné sur des données où `CO\_43` est
+> Lorsqu'un Random Forest est entraîné sur des données où `CO_43` est
 > sous-représenté à un ratio croissant, son recall s'effondre-t-il de façon
 > monotone tandis que l'accuracy reste artificiellement haute, et peut-on
 > récupérer ce recall via un ajustement du seuil de décision sans ré-entraînement ?
