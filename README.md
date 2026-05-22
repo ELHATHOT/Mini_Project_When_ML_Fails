@@ -38,9 +38,9 @@ mini\_project\_when\_ml\_fails/
 
 |Étape|Notebook|Rôle|
 |-|-|-|
-|**1**|`Reference\_model.ipynb`|Établir les performances de référence sur les deux tâches|
-|**2**|`Failure\_distribution\_shift.ipynb`|Investiguer le distribution shift géographique|
-|**3**|`Failure\_class\_imbalance.ipynb`|Investiguer le déséquilibre de classes|
+|**1**|`Reference_model.ipynb`|Établir les performances de référence sur les deux tâches|
+|**2**|`Failure_distribution_shift.ipynb`|Investiguer le distribution shift géographique|
+|**3**|`Failure_class_imbalance.ipynb`|Investiguer le déséquilibre de classes|
 
 Chaque notebook est **entièrement indépendant** et peut être exécuté seul.
 
@@ -64,7 +64,7 @@ Chaque notebook est **entièrement indépendant** et peut être exécuté seul.
 
 ## Notebook 0 — Modèle de Référence
 
-**Fichier :** `0\_reference\_model.ipynb`
+**Fichier :** `Reference_model.ipynb`
 
 Ce notebook établit les **performances de référence** sur les deux tâches
 (régression + classification) avec un pipeline propre et minimal.
@@ -80,14 +80,14 @@ Il sert de point de départ commun aux deux investigations de failure modes.
 ### Pour exécuter ce notebook
 
 ```bash
-jupyter notebook Reference\_model.ipynb
+jupyter notebook Reference_model.ipynb
 ```
 
 \---
 
 ## Mode d'échec principal — Distribution Shift Géographique
 
-**Fichier :** `Failure\_distribution\_shift.ipynb`
+**Fichier :** `Failure_distribution_shift.ipynb`
 
 ### Question de recherche
 
@@ -121,7 +121,7 @@ jupyter notebook Failure\_distribution\_shift.ipynb
 
 ## Mode d'échec secondaire — Déséquilibre de Classes
 
-**Fichier :** `Failure\_class\_imbalance.ipynb`
+**Fichier :** `Failure_class_imbalance.ipynb`
 
 ### Question de recherche
 
@@ -148,7 +148,7 @@ L'ajustement du seuil 0.50 → 0.10 récupère **+42 points de recall** sans ré
 ### Pour exécuter ce notebook
 
 ```bash
-jupyter notebook Failure\_class\_imbalance.ipynb
+jupyter notebook Failure_class_imbalance.ipynb
 ```
 
 \---
@@ -168,9 +168,9 @@ jupyter notebook Failure\_class\_imbalance.ipynb
 
 |Notebook|Modèle|Famille|Tâche|
 |-|-|-|-|
-|`0\_reference\_model.ipynb`|`GradientBoostingRegressor` + `RandomForestClassifier`|Tree-based ensembles|Régression + Classification|
-|`Failure\_distribution\_shift.ipynb`|`GradientBoostingRegressor`|Tree-based ensemble|Régression|
-|`Failure\_class\_imbalance.ipynb`|`RandomForestClassifier`|Tree-based ensemble|Classification|
+|`Reference_model.ipynb`|`GradientBoostingRegressor` + `RandomForestClassifier`|Tree-based ensembles|Régression + Classification|
+|`Failure_distribution_shift.ipynb`|`GradientBoostingRegressor`|Tree-based ensemble|Régression|
+|`Failure_class_imbalance.ipynb`|`RandomForestClassifier`|Tree-based ensemble|Classification|
 
 \---
 
