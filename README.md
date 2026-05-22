@@ -12,7 +12,7 @@ de production rizicole dans le Tamil Nadu (Inde du Sud).
 
 Le projet suit la posture scientifique demandée par l'énoncé :
 
-> \"Force a model to fail, understand why it fails, and repair it."\
+> \"Force a model to fail, understand why it fails, and repair it."
 
 \---
 
