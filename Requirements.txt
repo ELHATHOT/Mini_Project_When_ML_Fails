@@ -1,0 +1,31 @@
+# ─────────────────────────────────────────────────────────────────
+# Mini-Projet — When Machine Learning Fails
+#
+# Installation :
+#   pip install -r requirements.txt
+#
+# Python >= 3.9 requis
+# ─────────────────────────────────────────────────────────────────
+
+# ── Manipulation de données ───────────────────────────────────────
+numpy>=1.24.0
+pandas>=1.5.0
+
+# ── Visualisation ─────────────────────────────────────────────────
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# ── Statistiques ──────────────────────────────────────────────────
+scipy>=1.10.0
+
+# ── Machine Learning ──────────────────────────────────────────────
+scikit-learn>=1.2.0
+
+# ── Gestion du déséquilibre de classes (SMOTE) ────────────────────
+imbalanced-learn>=0.10.0
+
+# ── Environnement Jupyter ─────────────────────────────────────────
+jupyter>=1.0.0
+notebook>=6.5.0
+ipykernel>=6.0.0
+nbformat>=5.7.0
