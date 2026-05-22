@@ -21,7 +21,7 @@ Le projet suit la posture scientifique demandée par l'énoncé :
 ```
 mini_project_when_ml_fails/
 │
-├── data2.csv                              # Dataset Paddy (UCI 1186) — à placer ici
+├── data2.csv                              # Dataset Paddy (UCI 1186) 
 │
 ├── Reference_model.ipynb               # Modèle de référence (baseline)
 ├── Failure_distribution_shift.ipynb      # Mode d'échec principal
